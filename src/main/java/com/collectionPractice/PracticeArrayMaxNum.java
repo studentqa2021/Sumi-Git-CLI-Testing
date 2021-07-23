@@ -1,9 +1,9 @@
 package com.collectionPractice;
 
-public class ArrayMaxNum {
+public class PracticeArrayMaxNum {
 	
 int []a = {2,3,77,11,6};
- public int getArrayVallue() {
+ public int getmaxVallue() {
 
 int max = a[0];	
 for (int i =0;i<a.length;i++) {
@@ -17,8 +17,8 @@ return max;
 }
 public static void main(String[] args) {
 	
-	ArrayMaxNum obj = new ArrayMaxNum();
-	obj.getArrayVallue();
-	System.out.println(obj.getArrayVallue());
+	PracticeArrayMaxNum obj = new PracticeArrayMaxNum();
+	obj.getmaxVallue();
+	System.out.println(obj.getmaxVallue());
 }
 }
